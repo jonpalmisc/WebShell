@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E82669F4295096EF002EAF2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82669F3295096EF002EAF2B /* Assets.xcassets */; };
+		E82669F9295096EF002EAF2B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E82669F8295096EF002EAF2B /* main.m */; };
+		E829599A2950979F006A0A6F /* WSHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E82959992950979F006A0A6F /* WSHAppDelegate.m */; };
+		E829599D29509801006A0A6F /* WSHMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E829599C29509801006A0A6F /* WSHMainViewController.m */; };
+		E82959A029509B29006A0A6F /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E829599F29509B29006A0A6F /* WebKit.framework */; };
+		E82959A32950A1D8006A0A6F /* Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = E82959A22950A1D8006A0A6F /* Config.plist */; };
+		E82959A62950A2E3006A0A6F /* WSHConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = E82959A52950A2E3006A0A6F /* WSHConfig.m */; };
+		E8F65FF92950E08A00191899 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = E8F65FF82950E08A00191899 /* MainMenu.xib */; };
+		E8F65FFC2950E3D400191899 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8F65FFB2950E3D300191899 /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E82669ED295096EF002EAF2B /* WebShell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebShell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E82669F3295096EF002EAF2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E82669F8295096EF002EAF2B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E82669FA295096EF002EAF2B /* WebShell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = WebShell.entitlements; sourceTree = "<group>"; };
+		E82959982950979F006A0A6F /* WSHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSHAppDelegate.h; sourceTree = "<group>"; };
+		E82959992950979F006A0A6F /* WSHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSHAppDelegate.m; sourceTree = "<group>"; };
+		E829599B29509801006A0A6F /* WSHMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSHMainViewController.h; sourceTree = "<group>"; };
+		E829599C29509801006A0A6F /* WSHMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSHMainViewController.m; sourceTree = "<group>"; };
+		E829599F29509B29006A0A6F /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		E82959A22950A1D8006A0A6F /* Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Config.plist; sourceTree = "<group>"; };
+		E82959A42950A2E3006A0A6F /* WSHConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSHConfig.h; sourceTree = "<group>"; };
+		E82959A52950A2E3006A0A6F /* WSHConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSHConfig.m; sourceTree = "<group>"; };
+		E8F65FF82950E08A00191899 /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		E8F65FFB2950E3D300191899 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E8F65FFD2950F31E00191899 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E8F65FFE2950F4E600191899 /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E82669EA295096EF002EAF2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8F65FFC2950E3D400191899 /* AVFoundation.framework in Frameworks */,
+				E82959A029509B29006A0A6F /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E82669E4295096EF002EAF2B = {
+			isa = PBXGroup;
+			children = (
+				E8F65FFE2950F4E600191899 /* LICENSE.txt */,
+				E8F65FFD2950F31E00191899 /* README.md */,
+				E82669EF295096EF002EAF2B /* WebShell */,
+				E82669EE295096EF002EAF2B /* Products */,
+				E829599E29509B28006A0A6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E82669EE295096EF002EAF2B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E82669ED295096EF002EAF2B /* WebShell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E82669EF295096EF002EAF2B /* WebShell */ = {
+			isa = PBXGroup;
+			children = (
+				E82959982950979F006A0A6F /* WSHAppDelegate.h */,
+				E82959992950979F006A0A6F /* WSHAppDelegate.m */,
+				E82959A42950A2E3006A0A6F /* WSHConfig.h */,
+				E82959A52950A2E3006A0A6F /* WSHConfig.m */,
+				E829599B29509801006A0A6F /* WSHMainViewController.h */,
+				E829599C29509801006A0A6F /* WSHMainViewController.m */,
+				E82669F8295096EF002EAF2B /* main.m */,
+				E8F65FF82950E08A00191899 /* MainMenu.xib */,
+				E82959A22950A1D8006A0A6F /* Config.plist */,
+				E82669F3295096EF002EAF2B /* Assets.xcassets */,
+				E82669FA295096EF002EAF2B /* WebShell.entitlements */,
+			);
+			path = WebShell;
+			sourceTree = "<group>";
+		};
+		E829599E29509B28006A0A6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8F65FFB2950E3D300191899 /* AVFoundation.framework */,
+				E829599F29509B29006A0A6F /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E82669EC295096EF002EAF2B /* WebShell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E82669FD295096EF002EAF2B /* Build configuration list for PBXNativeTarget "WebShell" */;
+			buildPhases = (
+				E82669E9295096EF002EAF2B /* Sources */,
+				E82669EA295096EF002EAF2B /* Frameworks */,
+				E82669EB295096EF002EAF2B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebShell;
+			productName = WebShell;
+			productReference = E82669ED295096EF002EAF2B /* WebShell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E82669E5295096EF002EAF2B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E82669EC295096EF002EAF2B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E82669E8295096EF002EAF2B /* Build configuration list for PBXProject "WebShell" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E82669E4295096EF002EAF2B;
+			productRefGroup = E82669EE295096EF002EAF2B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E82669EC295096EF002EAF2B /* WebShell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E82669EB295096EF002EAF2B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82959A32950A1D8006A0A6F /* Config.plist in Resources */,
+				E82669F4295096EF002EAF2B /* Assets.xcassets in Resources */,
+				E8F65FF92950E08A00191899 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E82669E9295096EF002EAF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E829599A2950979F006A0A6F /* WSHAppDelegate.m in Sources */,
+				E82669F9295096EF002EAF2B /* main.m in Sources */,
+				E82959A62950A2E3006A0A6F /* WSHConfig.m in Sources */,
+				E829599D29509801006A0A6F /* WSHMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E82669FB295096EF002EAF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E82669FC295096EF002EAF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E82669FE295096EF002EAF2B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WebShell/WebShell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UEF3U6NE7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonpalmisc.WebShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		E82669FF295096EF002EAF2B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = WebShell/WebShell.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9UEF3U6NE7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires camera access.";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires microphone access.";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jonpalmisc.WebShell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E82669E8295096EF002EAF2B /* Build configuration list for PBXProject "WebShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82669FB295096EF002EAF2B /* Debug */,
+				E82669FC295096EF002EAF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E82669FD295096EF002EAF2B /* Build configuration list for PBXNativeTarget "WebShell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E82669FE295096EF002EAF2B /* Debug */,
+				E82669FF295096EF002EAF2B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E82669E5295096EF002EAF2B /* Project object */;
+}
