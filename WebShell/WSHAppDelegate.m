@@ -3,6 +3,7 @@
 //  WebShell
 //
 //  Copyright (c) 2022 Jon Palmisciano. All rights reserved.
+//  Licensed under the BSD 3-Clause license; see LICENSE.txt for more info.
 //
 
 #import "WSHAppDelegate.h"
